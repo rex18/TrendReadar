@@ -101,7 +101,7 @@ jobs:
       #     Critical for load balancing.
       #
       # CN: 生成 1 到 300 秒（5分钟）之间的随机延迟。
-      #     这对负载均衡至关重要
+      #     这对负载均衡至关重要。
       - name: Random Delay (Traffic Control)
         if: success()
         run: |
